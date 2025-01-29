@@ -1,4 +1,8 @@
 package nagaventures.shoppingcart.repository;
 
-public class ProductDimensionRepository {
+import nagaventures.shoppingcart.model.ProductDimension;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ProductDimensionRepository extends JpaRepository<ProductDimension, Long> {
+
 }
